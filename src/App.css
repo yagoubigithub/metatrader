@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    color: white;
+}
+#sidebar {
+    width  : 20%;
+    height: 100vh;
+    border-right: 1px solid rgba(0,0,0,0.4);
+
+}
+
+body {
+    background-color: #161b22;
+}
+.dot {
+    width:10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.bg-gray {
+    background-color: gray;
+}
+.bg-green {
+    background-color: greenyellow;
+}
+
+
+.top-nav-btn {
+    background-color: transparent;
+    color: gray;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
